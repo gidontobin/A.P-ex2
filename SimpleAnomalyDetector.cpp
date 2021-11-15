@@ -1,5 +1,6 @@
 
 #include "SimpleAnomalyDetector.h"
+#include "anomaly_detection_util.h"
 
 SimpleAnomalyDetector::SimpleAnomalyDetector() {
 	// TODO Auto-generated constructor stub
@@ -40,11 +41,20 @@ void SimpleAnomalyDetector::learnNormal(const TimeSeries& ts){
             points[x] = new Point(matrix[x][i],matrix[x][corTo]);
         }
 
+        float maxDev = 0;
+        Line lin_reg = linear_reg(points,num_of_rows);
+        for(int x = 0; x<num_of_rows; x++) {
+            float getDev = dev(points[x],lin_reg);
+            if(getDev>maxDev)
+                maxDev=getDev;
+        }
+
+        maxDev=maxDev*1.1;
         correlatedFeatures corOfI;
         corOfI.feature1 = matrix[0][i];
         corOfI.feature2 = matrix[0][corTo];
-        corOfI.corrlation = maxCor;
-        corOfI.lin_reg = linear_reg(points,num_of_rows){
+        corOfI.corrlation = maxDev;
+        corOfI.lin_reg = linear_reg;
         corOfI.threshold = threshold;
 
         this->cf.push_back(corOfI);
@@ -53,5 +63,8 @@ void SimpleAnomalyDetector::learnNormal(const TimeSeries& ts){
 
 vector<AnomalyReport> SimpleAnomalyDetector::detect(const TimeSeries& ts){
 	// TODO Auto-generated destructor stub
+    for(correlatedFeatures corOfI : this->cf){
+
+    }
 }
 

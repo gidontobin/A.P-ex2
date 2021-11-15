@@ -14,14 +14,22 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3bc439-068e-47e4-85d5-11367e1c963c" name="Default Changelist" comment="updated last file">
+    <list default="true" id="7b3bc439-068e-47e4-85d5-11367e1c963c" name="Default Changelist" comment="change your comment">
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainFile1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/A.P-ex2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/A.P-ex2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnomalyDetector.h" beforeDir="false" afterPath="$PROJECT_DIR$/AnomalyDetector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnomalyDetector.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/AnomalyDetector.h.gch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.h.gch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/anomaly_detection_util.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/anomaly_detection_util.h.gch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeseries.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/timeseries.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeseries.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/timeseries.h.gch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +38,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,9 +64,19 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A.P-ex2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" RUN_PATH="$PROJECT_DIR$/../CMakeLists.txt" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -90,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636958363621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change your comment">
+      <created>1636966438697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636966438697</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,17 +144,30 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Received all files" />
     <MESSAGE value="updated last file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated last file" />
+    <MESSAGE value="change your comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="change your comment" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1636449674856">
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636991709187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1636449674856" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1636958369752">
+    <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1636991709187" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1636992157400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1636958369752" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1636992157400" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1636991762015">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1636991762015" />
+    <state x="184" y="9" key="SettingsEditor" timestamp="1636991686760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1636991686760" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1636966442186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1636966442186" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636958335307">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
