@@ -14,11 +14,15 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3bc439-068e-47e4-85d5-11367e1c963c" name="Default Changelist" comment="I'm here comment" />
+    <list default="true" id="7b3bc439-068e-47e4-85d5-11367e1c963c" name="Default Changelist" comment="updated last file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnomalyDetector.h" beforeDir="false" afterPath="$PROJECT_DIR$/AnomalyDetector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,19 +45,16 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
-    <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -67,7 +68,6 @@
       <updated>1636446264702</updated>
       <workItem from="1636446265922" duration="3393000" />
       <workItem from="1636958321237" duration="5768000" />
-      <workItem from="1636965252217" duration="787000" />
     </task>
     <task id="LOCAL-00001" summary="Received all files">
       <created>1636446477002</created>
@@ -90,42 +90,7 @@
       <option name="project" value="LOCAL" />
       <updated>1636958363621</updated>
     </task>
-    <task id="LOCAL-00004" summary="I'm here comment">
-      <created>1636965488266</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1636965488266</updated>
-    </task>
-    <task id="LOCAL-00005" summary="I'm here comment">
-      <created>1636965621754</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1636965621754</updated>
-    </task>
-    <task id="LOCAL-00006" summary="I'm here comment">
-      <created>1636965924314</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1636965924314</updated>
-    </task>
-    <task id="LOCAL-00007" summary="I'm here comment">
-      <created>1636965976166</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1636965976166</updated>
-    </task>
-    <task id="LOCAL-00008" summary="I'm here comment">
-      <created>1636965998715</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1636965998715</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +112,24 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Received all files" />
     <MESSAGE value="updated last file" />
-    <MESSAGE value="I'm here comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="I'm here comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated last file" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1636449674856">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1636449674856" />
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1636958369752">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1636958369752" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636958335307">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1636958335307" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1636449048969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1636449048969" />
   </component>
 </project>
