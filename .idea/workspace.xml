@@ -18,10 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3bc439-068e-47e4-85d5-11367e1c963c" name="Default Changelist" comment="updated last file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="7b3bc439-068e-47e4-85d5-11367e1c963c" name="Default Changelist" comment="I'm here comment" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +67,7 @@
       <updated>1636446264702</updated>
       <workItem from="1636446265922" duration="3393000" />
       <workItem from="1636958321237" duration="5768000" />
-      <workItem from="1636965252217" duration="129000" />
+      <workItem from="1636965252217" duration="434000" />
     </task>
     <task id="LOCAL-00001" summary="Received all files">
       <created>1636446477002</created>
@@ -93,7 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636958363621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="I'm here comment">
+      <created>1636965488266</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636965488266</updated>
+    </task>
+    <task id="LOCAL-00005" summary="I'm here comment">
+      <created>1636965621754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636965621754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,24 +126,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Received all files" />
     <MESSAGE value="updated last file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated last file" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1636449674856">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1636449674856" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1636958369752">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1636958369752" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636958335307">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1636958335307" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1636449048969">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1636449048969" />
+    <MESSAGE value="I'm here comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="I'm here comment" />
   </component>
 </project>
