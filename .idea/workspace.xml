@@ -18,18 +18,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7b3bc439-068e-47e4-85d5-11367e1c963c" name="Default Changelist" comment="change your comment">
-      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trainFile1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/A.P-ex2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/A.P-ex2.iml" afterDir="false" />
+    <list default="true" id="7b3bc439-068e-47e4-85d5-11367e1c963c" name="Default Changelist" comment="tried to work on timeseries.cpp, but not finshed,&#10;main trainFile1.csv for practice">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AnomalyDetector.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/AnomalyDetector.h.gch" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleAnomalyDetector.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleAnomalyDetector.h.gch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/anomaly_detection_util.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/anomaly_detection_util.h.gch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeseries.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/timeseries.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/timeseries.h.gch" beforeDir="false" afterPath="$PROJECT_DIR$/timeseries.h.gch" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +84,8 @@
       <updated>1636446264702</updated>
       <workItem from="1636446265922" duration="3393000" />
       <workItem from="1636958321237" duration="5768000" />
+      <workItem from="1637132602773" duration="253000" />
+      <workItem from="1637138996403" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="Received all files">
       <created>1636446477002</created>
@@ -122,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636966438697</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="tried to work on timeseries.cpp, but not finshed,&#10;main trainFile1.csv for practice">
+      <created>1636996350130</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636996350130</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,7 +145,8 @@
     <MESSAGE value="Received all files" />
     <MESSAGE value="updated last file" />
     <MESSAGE value="change your comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="change your comment" />
+    <MESSAGE value="tried to work on timeseries.cpp, but not finshed,&#10;main trainFile1.csv for practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried to work on timeseries.cpp, but not finshed,&#10;main trainFile1.csv for practice" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1636991709187">
@@ -164,17 +165,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1636991686760" />
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1636966442186">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2" timestamp="1636996361049">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1636966442186" />
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1636958335307">
+    <state x="275" y="84" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1636996361048" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1637139128341">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1636958335307" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1637139128341" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1636449048969">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1636449048969" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1637141788683">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1637141788683" />
   </component>
 </project>
